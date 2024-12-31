@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/imgWisata"
+            android:src="@drawable/lgoo"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNama"
+            android:layout_toEndOf="@+id/imgWisata"
+            android:layout_marginStart="10dp"
+            android:textSize="24sp"
+            android:text="Nama Sekolah"
+            android:textStyle="bold"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNoTelp"
+            android:layout_below="@+id/tvNama"
+            android:layout_toEndOf="@+id/imgWisata"
+            android:layout_marginStart="10dp"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:text="08238900672"
+            android:layout_marginTop="5dp"
+            />
+
+
+            <TextView
+                android:id="@+id/tvAlamat"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNoTelp"
+                android:textSize="14sp"
+                android:layout_toEndOf="@+id/imgWisata"
+                android:text="Padang barat"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
